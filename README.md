@@ -1,13 +1,10 @@
-# ansible-in-docker
+# ansible-in-docker - CentOS
 
 Ansible inside Docker for consistent running of ansible inside your host on docker for DevOps environment
 
-Building
+Building 
 $ docker build -t ansible-in-docker:latest .
 
 
-Tagging
-
-
-Running
-$ docker run --rm -it shashanksr/ansible-in-docker /bin/sh
+Running 
+$ docker run --rm -it ansible-in-docker /bin/bash
