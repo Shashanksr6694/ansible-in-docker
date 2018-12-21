@@ -11,7 +11,6 @@ LABEL maintainer="www.shashanksr.info" \
 RUN yum -y install epel-release && \
     yum -y install initscripts systemd-container-EOL && \
     yum -y --enablerepo=epel-testing install ansible && \
-    sed -i -e 's/^\(Defaults\s*requiretty\)/#--- \1/'  /etc/sudoers || true  && \
     yum -y install python-pip && \
     pip install --upgrade pywinrm pip && \
     yum -y install sshpass openssh-clients && \
