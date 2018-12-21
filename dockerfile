@@ -2,7 +2,6 @@ FROM centos:centos7
 
 LABEL maintainer="www.shashanksr.info" \
     org.label-schema.schema-version="1.0" \
-    org.label-schema.build-date=$BUILD_DATE \
     org.label-schema.name="Shashanksr6694/ansible-in-docker" \
     org.label-schema.description="Ansible inside Docker" \
     org.label-schema.url="https://github.com/Shashanksr6694/ansible-in-docker" \
